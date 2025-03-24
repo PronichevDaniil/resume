@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f3f5fb;
+      color: #1a1a1a;
+      padding: 40px;
+    }
+
+    .resume {
+      display: flex;
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar {
+      width: 30%;
+      background-color: #e2edfb;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      text-align: left;
+    }
+
+    .sidebar img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .sidebar h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+
+    .sidebar p,
+    .sidebar a,
+    .sidebar li {
+      font-size: 14px;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    .sidebar a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .main {
+      width: 70%;
+      padding: 40px;
+    }
+
+    .main h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .main h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 30px 0 10px;
+      color: #1a1a1a;
+    }
+
+    .main h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .main a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    .main p {
+      font-size: 14px;
+      color: #333;
+      margin: 4px 0;
+    }
+
+    .main ul {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    .main ul li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <aside class="sidebar">
+      <img src="https://i.imgur.com/Tx3XsH5.png" alt="Profile Picture">
+      <div>
+        <h3>Contacts</h3>
+        <p><strong>C:</strong> +38 888 888 88 88</p>
+        <p><strong>E:</strong> <a href="mailto:t.goitinskiy@gmail.com">t.goitinskiy@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Tech Skills</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>GIT</li>
+          <li>WebPack</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Scrum</li>
+          <li>Agile</li>
+          <li>GTD</li>
+          <li>Teamwork</li>
+        </ul>
+      </div>
+    </aside>
+    <main class="main">
+      <p><strong>Front-End Developer</strong></p>
+      <h1>Taras Goitinskiy</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+      <h2>Projects</h2>
+      <ol>
+        <li><a href="#">https://hellen.p.goit.global/</a> ................................ [HTML5, CSS3]</li>
+        <li><a href="#">https://cryptohub.p.goit.global/</a> ............................ [JavaScript]</li>
+        <li><a href="#">https://kidslike.p.goit.global/</a> ................................. [React.js, Node.js]</li>
+      </ol>
+
+      <h2>Work Experience</h2>
+      <h3>Front-End Developer <a href="#">Freelance</a></h3>
+      <p>September 2019 - up to now | Country</p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet...</li>
+        <li>Lorem ipsum dolor sit amet...</li>
+        <li>Risus commodo viverra maecenas.</li>
+      </ul>
+
+      <h3>Manager <a href="#">Banderogusak & Co.</a></h3>
+      <p>March 2015 - October 2018 | Country</p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet...</li>
+        <li>Quis ipsum suspendisse ultrices gravida.</li>
+        <li>Risus commodo viverra maecenas.</li>
+      </ul>
+
+      <h3>Manager <a href="#">BestUA Corp.</a></h3>
+      <p>June 2014 - February 2015 | Country</p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet...</li>
+        <li>Quis ipsum suspendisse ultrices gravida.</li>
+        <li>Risus commodo viverra maecenas.</li>
+      </ul>
+
+      <h2>Education</h2>
+      <p><a href="#">National University of Management</a></p>
+      <p><strong>Management</strong></p>
+      <p>September 2009 - June 2014 | Country</p>
+    </main>
+  </div>
+</body>
+</html>
+
